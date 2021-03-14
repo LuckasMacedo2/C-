@@ -1,0 +1,16 @@
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\bin\Debug\net5.0\Bank.exe
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\bin\Debug\net5.0\Bank.deps.json
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\bin\Debug\net5.0\Bank.runtimeconfig.json
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\bin\Debug\net5.0\Bank.runtimeconfig.dev.json
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\bin\Debug\net5.0\Bank.dll
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\bin\Debug\net5.0\ref\Bank.dll
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\bin\Debug\net5.0\Bank.pdb
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\obj\Debug\net5.0\Bank.csprojAssemblyReference.cache
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\obj\Debug\net5.0\Bank.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\obj\Debug\net5.0\Bank.AssemblyInfoInputs.cache
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\obj\Debug\net5.0\Bank.AssemblyInfo.cs
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\obj\Debug\net5.0\Bank.csproj.CoreCompileInputs.cache
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\obj\Debug\net5.0\Bank.dll
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\obj\Debug\net5.0\ref\Bank.dll
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\obj\Debug\net5.0\Bank.pdb
+D:\Estudos\Linguagens De Programação\C#\Banco\Bank\obj\Debug\net5.0\Bank.genruntimeconfig.cache
