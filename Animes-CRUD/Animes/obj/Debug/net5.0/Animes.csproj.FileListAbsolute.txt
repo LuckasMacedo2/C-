@@ -1,0 +1,16 @@
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\bin\Debug\net5.0\Animes.exe
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\bin\Debug\net5.0\Animes.deps.json
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\bin\Debug\net5.0\Animes.runtimeconfig.json
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\bin\Debug\net5.0\Animes.runtimeconfig.dev.json
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\bin\Debug\net5.0\Animes.dll
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\bin\Debug\net5.0\ref\Animes.dll
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\bin\Debug\net5.0\Animes.pdb
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\obj\Debug\net5.0\Animes.csprojAssemblyReference.cache
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\obj\Debug\net5.0\Animes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\obj\Debug\net5.0\Animes.AssemblyInfoInputs.cache
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\obj\Debug\net5.0\Animes.AssemblyInfo.cs
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\obj\Debug\net5.0\Animes.csproj.CoreCompileInputs.cache
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\obj\Debug\net5.0\Animes.dll
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\obj\Debug\net5.0\ref\Animes.dll
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\obj\Debug\net5.0\Animes.pdb
+D:\Estudos\Linguagens De Programação\C#\Cadastro-Series\Animes\obj\Debug\net5.0\Animes.genruntimeconfig.cache
