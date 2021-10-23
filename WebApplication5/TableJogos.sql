@@ -1,17 +1,17 @@
 CREATE TABLE Jogos
 (
-	Id			uniqueidentifier NOT NULL, 
-	Nome		VARCHAR(100) NOT NULL,
-	Produtora	VARCHAR(100) NOT NULL,
+	Id		uniqueidentifier NOT NULL, 
+	Nome		VARCHAR(100) 	 NOT NULL,
+	Produtora	VARCHAR(100) 	 NOT NULL,
 	Preco		FLOAT		 NOT NULL
 )
-GO -- Fim de uma instrução e inicio de outra
+GO
 ALTER TABLE Jogos ADD CONSTRAINT PK_Jogos PRIMARY KEY (Id);
 
 INSERT Jogos (Id, Nome, Produtora, Preco) VALUES
 ('947bcd16-59d4-47c6-8179-d3a7a87e1895', 'Blech Brave Souls', 'Klab', 100);
 INSERT Jogos (Id, Nome, Produtora, Preco) VALUES
-('e3485701-0cb6-44d3-b123-c4899a4fee46', 'Pokémon GO', 'Niantic', 10);
+('e3485701-0cb6-44d3-b123-c4899a4fee46', 'PokÃ©mon GO', 'Niantic', 10);
 INSERT Jogos (Id, Nome, Produtora, Preco) VALUES
 ('dac49087-45fc-46c3-9ea9-d7ce48e07ac8', 'World Of Warcraft', 'Blizzard', 500);
 INSERT Jogos (Id, Nome, Produtora, Preco) VALUES
@@ -19,6 +19,4 @@ INSERT Jogos (Id, Nome, Produtora, Preco) VALUES
 
 SELECT * FROM Jogos
 
-DROP TABLE Jogos
-
-commit
+COMMIT
