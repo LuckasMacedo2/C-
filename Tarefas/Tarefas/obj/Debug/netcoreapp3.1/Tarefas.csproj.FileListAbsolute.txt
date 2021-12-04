@@ -1,0 +1,14 @@
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\bin\Debug\netcoreapp3.1\Tarefas.exe
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\bin\Debug\netcoreapp3.1\Tarefas.deps.json
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\bin\Debug\netcoreapp3.1\Tarefas.runtimeconfig.json
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\bin\Debug\netcoreapp3.1\Tarefas.runtimeconfig.dev.json
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\bin\Debug\netcoreapp3.1\Tarefas.dll
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\bin\Debug\netcoreapp3.1\Tarefas.pdb
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.csproj.AssemblyReference.cache
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.AssemblyInfoInputs.cache
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.AssemblyInfo.cs
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.dll
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.pdb
+C:\Users\Lucas\source\repos\Tarefas\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.genruntimeconfig.cache
