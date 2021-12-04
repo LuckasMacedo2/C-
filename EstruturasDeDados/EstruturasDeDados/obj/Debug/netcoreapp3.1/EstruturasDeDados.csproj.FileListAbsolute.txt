@@ -1,0 +1,14 @@
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\bin\Debug\netcoreapp3.1\EstruturasDeDados.exe
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\bin\Debug\netcoreapp3.1\EstruturasDeDados.deps.json
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\bin\Debug\netcoreapp3.1\EstruturasDeDados.runtimeconfig.json
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\bin\Debug\netcoreapp3.1\EstruturasDeDados.runtimeconfig.dev.json
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\bin\Debug\netcoreapp3.1\EstruturasDeDados.dll
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\bin\Debug\netcoreapp3.1\EstruturasDeDados.pdb
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\obj\Debug\netcoreapp3.1\EstruturasDeDados.csproj.AssemblyReference.cache
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\obj\Debug\netcoreapp3.1\EstruturasDeDados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\obj\Debug\netcoreapp3.1\EstruturasDeDados.AssemblyInfoInputs.cache
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\obj\Debug\netcoreapp3.1\EstruturasDeDados.AssemblyInfo.cs
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\obj\Debug\netcoreapp3.1\EstruturasDeDados.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\obj\Debug\netcoreapp3.1\EstruturasDeDados.dll
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\obj\Debug\netcoreapp3.1\EstruturasDeDados.pdb
+C:\Users\Lucas\source\repos\EstruturasDeDados\EstruturasDeDados\obj\Debug\netcoreapp3.1\EstruturasDeDados.genruntimeconfig.cache
