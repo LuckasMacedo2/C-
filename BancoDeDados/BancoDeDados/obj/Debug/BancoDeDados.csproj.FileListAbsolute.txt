@@ -1,0 +1,12 @@
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\bin\Debug\BancoDeDados.exe.config
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\bin\Debug\BancoDeDados.exe
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\bin\Debug\BancoDeDados.pdb
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.csproj.AssemblyReference.cache
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.Form1.resources
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.Properties.Resources.resources
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.csproj.GenerateResource.cache
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.exe
+C:\Users\Lucas\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.pdb
