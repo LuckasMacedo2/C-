@@ -1,0 +1,15 @@
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\net6.0\PadroesDeProjeto.exe
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\net6.0\PadroesDeProjeto.deps.json
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\net6.0\PadroesDeProjeto.runtimeconfig.json
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\net6.0\PadroesDeProjeto.dll
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\net6.0\ref\PadroesDeProjeto.dll
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\net6.0\PadroesDeProjeto.pdb
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\net6.0\PadroesDeProjeto.csproj.AssemblyReference.cache
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\net6.0\PadroesDeProjeto.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\net6.0\PadroesDeProjeto.AssemblyInfoInputs.cache
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\net6.0\PadroesDeProjeto.AssemblyInfo.cs
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\net6.0\PadroesDeProjeto.csproj.CoreCompileInputs.cache
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\net6.0\PadroesDeProjeto.dll
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\net6.0\ref\PadroesDeProjeto.dll
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\net6.0\PadroesDeProjeto.pdb
+F:\Projects\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\net6.0\PadroesDeProjeto.genruntimeconfig.cache
