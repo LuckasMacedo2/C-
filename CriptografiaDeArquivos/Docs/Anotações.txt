@@ -1,0 +1,279 @@
+WebServices = Aplicação hospedada que pode ser acessada via requisições HTTP. São legíveis por máquinas
+	Construção de software a partir de peças e componentes
+	Qualquer cliente autenticado pode consumir a aplicação
+W3C -> aplicação cliente servidor que se comunicam através do HTTP.
+REST = Pedaços de software acessados via HTTP que pode ser consumido a partir de qualquer linguagem de programação. Permitindo o reuso.
+
+SOAP -> facilitava a integração de sistemas, usa envelopamento próprio que usa RPC para enviar o XML
+	Troca de mensagem via XML
+	Usa WSDL para a comunicação entre cliente e servidor
+	Invoca serviços a partir de RPC
+	Resultado retornado não é legível para humanos
+	Comunicação via HTTP, mas pode usar outros protocolos
+	Invocação de SOAP em js é complexo
+	Perfomance não é uma das melhores 	
+
+-------
+REST -> restrições arquiteturais, ele faz requisições HTPP e suporta diferentes extensões de arquivo.
+	Estilo arquitetural
+	Usa XML, JSON etc, para enviar e receber dados
+	Simplesmente chama serviços via URL path
+	Resultado legível por humanos
+	Comunicação feita unicamente via HTPP
+	Fácil de chamar via js
+	Performance melhor
+REST = Representation State Transfer. Estilo arquitetural para softwares distribuídos
+Restrições:
+	1. Cliente servidor: Cliente e servidor devem ficar separados
+	2. Stateless server (servidor sem estado): O servidor não deve guardar o estado do cliente. Cada request do cliente deve conter as informações para atendê-la
+	3. Cacheable: O cliente deve ser informado sobre as propriedades de cache de um recurso para que possa dcidir se irá utilizá-la ou não
+	4. Interface uniforme: Interface uniforme entre cliente e servidor
+		Identificação de recursos (URI)
+		Manipulação de recursos a partir de suas representações
+		Mensagens auto descritivas
+		HATEOAS
+	5. Sistem em camadas: Deve suportar outras tenologias, como proxies, firewalls etc.
+	6. Código sob demanda (opcional)
+
+** O cliente deve solicitar no código do servidor e deve ser capaz de executá-lo **
+Leve por natureza
+Protocolo HTTP
+No REST o cliente é quem faz a requisição
+Response = devolução do resultado
+
+Parâmetros: Usados para persistir dados
+	Path parameters -> usados na URL e são obrigatórios, não utilizá-los gera erro. Usado em buscas
+	Header parameters -> enviados no cabeçalho da requisição. Não podem ser enviados via brownser. Podem ser usados pelo framework
+	Body parameters -> parâmetros passados via body, usado para enviar dados complexos. POST e PUT.
+& -> parâmetros opcionais
+
+Status Code:
+	1XX -> Informacionais. Poucos usados
+	2XX -> Sucesso
+		200 - Ok -> Request de criação ou deleção executada com sucesso
+		201 - Criado -> Item recebido, mas foi colocado em uma fila ou algo e terá que esperar para ser processados
+		202 - Informação não autoritativa
+		204 - Sem conteúdo -> Item não encontrado
+		205 - Conteúdo resetados
+		206 - Conteúdo parcial
+		207 - Multi-status
+		208 - Already reported
+		226 - IM used
+	3XX -> Redirecionamento. Mais usados em sites
+		300 - Multiple choices
+		301 - Movido permanentemente
+		302 - Encontrado
+		303 - Veja outros
+		304 - Não modificado
+		305 - Use proxy
+		307 - Redirecionado temporariamente
+		308 - Redirecionamento permanente
+	4XX -> Erro de client
+		400 - Bad request -> Request para um end / id errado
+		401 - Unauthorized -> Acesso a endpoint sem autorização
+		402 - Pament required 
+		403 - Forbidden -> Cliente não tem permissão para executar requisições na operação em questão
+		404 - Not Found -> Não encontrado
+		405 - Method not allowed -> Usuário não tem acesso ao recurso
+		406 - Not Acceptable
+		407 - Proxy autentication required
+		408 - Request timeout
+		409 - Conflict -> Um objeto já foi criadop com as mesmas condições
+		410 - Gone
+		411 - Length required
+		412 - Precondicion failed
+		413 - Payload too large
+		414 - Request-URI too long
+		415 - Unsupported media type
+		416 - REquested range not satisfiable
+		417 - Expectation failed
+		418 - I'm a teapot
+		421 - Misdirected request
+		422 - Unprocessable entity
+		423 - Locked
+		424 - Failed dependency
+		426 - Upgrade required
+		428 - Precondicion required
+		429 - Too many requests
+		431 - Request header fields too large 
+		444 - Connection closed without response
+		451 - Unavailable for legal reasons
+		499 - Client closed request
+	5XX -> Erro de server, interno
+		500 - Internal server error -> Erro no servidor
+		501 - Not implemented
+		502 - Bad gateway
+		503 - Service unavailable
+		504 - Gateway timeout
+		505 - HTTP version not supported
+		506 - Variant also negotiates
+		507 - Insufficient storage
+		508 - Loop detected
+		510 - Not extended
+		511 - Network autentication required
+		599 - Network connect timeout error
+
+Verbos HTTP
+	POST - criar. Criação de novos recursos, retorna 200 ou 201. Peferir passar os parâmetros para ele via body
+	GET - buscar. Recupera um recurso + cód. 200. Não suporta parâmetros via Body, aceita via URL ou header
+	PUT (mais recomendado) / PATCH - atualizar um registro. Modificar recursos. Peferir passar os parâmetros para ele via body
+	DELETE - deletar. Não retornar nada é o recomendado
+Verbos HTTP menos conhecidos
+	PATCH - pode ser usado para realizar updates parciais, para atualizar partes do objeto. Mas, ele pode gerar colisões.
+	HEAD - Parecido com o GET, mas retorna apenas a response line sem o body
+	TRACE - Usado para recuperar o conteúdo de uma requisição HTTP de volta para debbug
+	OPTIONS - Lista as operações HTTP suportadas pela API 
+	CONNECT - Usado pelo cliente para estabelecer uma conexão de rede com um servidor via HTTP
+
+Níveis de maturidade
+	RESTFul nível mais alta. Níveis:
+		Nível 0: Pantâno de XML, tudo em um endpoint só;
+		Nível 1: Recursos, as informações organizadas em endpoints separados
+		Nível 2: Verbos, os verbos HTTP são utilizados corretamente
+		Nível 3: Uso de hipermídia, uso de links e as operações que podem ser realizadas com o recurso. (HATEOAS)
+	HATEOAS -> Hypermidia As The Engine Of Application State, provê informações para navegar entre os endpoints de forma dinâmica
+		     a resposta tem links para acessar outros enpoints.
+	
+	
+-------
+
+O SOAP envelopa os dados colocando mais informação e fazendo o sistema "pesar" mais. No REST apenas os dados são trafegados
+
+-------
+Microsserviços
+	O que são: estilo arquitetural para a construção de softwares. Uma aplicação é implementada a partir de pequenos serviços independentes que se comunicam por meio de algum processo bem conhecido.
+	Geralmente se comunicam por REST
+	>> Microsserviço: aplicação única desenvolvida como um conjunto de pequenos serviços, cada um executado no seu próprio processo, se comunicam com mecanismos leves; escritos, implantados, dimensionados e mantidos separadamente; encapsulam regras de negócio ou funcionalidades, podem ser substituídos e atualizados de forma independente
+	São diferentes de um SOA
+	Pequenas aplicações independentes e se comunicam em protocolos abertos, se comunicam com uma ou duas tecnologias de persistência
+	API Gateway = Provê interfaces fáceis para o client consumir.
+	Arquitetura baseada em nuvem = o sistema se comunica através de apis
+	Encapsula regras
+	Separação de serviços independentes
+	Fáceis de gerenciar, alterar ...
+	Governância descentralizada 
+	> São coreografados
+	Persistência poliglota -> usar várias tecnologias de persistência. Contudo perde-se o ACID
+	São aplicações distribuídas
+	Vantagens:
+		* Fáceis de compreender
+		* Fácil de testar, implantar, gerenciar ...
+		* Ciclo de mudanças desacoplado
+		* Mais fácil de escalar times
+		* Liberdade para experimentar novas linguagens ou frameworks
+	Desvantagens:
+		* Dificil de compreender todo o sistema
+		* Não elimina a complexidade
+		* Os serviços podem ficam indisponíveis
+		* Chamadas remotas são mais caras
+		* Não existem transações
+		* Features com vários microsserviços
+	** Tudo falha o tempo todo **
+Monolito
+	Compreensão é fácil
+	Preso a tecnologia
+	Muita coisa em um local só
+	Encapsula principalmente funcionalidades técnicas, ex.: camadas de dal ...
+
+Falácias da computação distruída
+>> A rede é confiável
+>> Latência é zero
+>> Largura de banda infinita
+>> A rede é segura
+>> A topologia não muda
+>> Existe um administrador
+>> Custo de transporte é zero
+>> A rede é homogênea
+
+Aplicação molitica -> aplicação de microsserviços
+	Principal ponto: Regra de negócio, principio de responsabilidade de compra.
+	Tamanho não é limitante
+
+Microsserviços e SOA
+	SOA
+		* Integração entre sistemas 
+		* Depende de orquestração
+		* Depende de tecnologia de integração inteligente, serviços burros
+	Microsserviços
+		* Atendem a aplicativos individuais
+		* Contam com coreografia
+		* Serviços inteligentes e tecnologia de integração burra
+		
+
+-----------------------
+Padrão de projetos VO - Value Object - DTO
+	Uso de classe intermediária para expor os dados para os clients
+	Facilita o versionamento do banco de dados
+
+-----------------------
+No Front end o model é o objeto que a tela usa para renderizar os dados
+ClientFactory -> faz requisições em aplicação ASP.NET Core
+
+-----------------------
+Autenticação
+	Controlar o que cada usuário pode fazer na aplicação.
+	Necessário que seja realizado o login para realizar as operações no sistema
+	Duende Software
+	OAuth2 -> Protocolo aberto que permite a autorização de forma simples e padronizada entre aplicações
+	Feita via access token
+	OAuth -> Autorização
+	OpenID Conect extende o OAuth2, onde uma aplicação recebe um Iddentity token e um access token
+		Provê autorização e autenticação
+		Superior ao OAuth2
+	Client <-> Identity Server / Provider
+	Duende Identity Server -> implementação do OpenId Connect e Oauth2
+		Gratuito para empresas com faturamento < 1 milhão de dólares
+	Terminologias:
+		Client -> Componente de software que requisita um token à um Identity Server
+		API Resource -> Representam uma funcionalidade que um client precisa invocar - normalmente implementados através de Web API's
+		Identity Resource (Claims) -> Informações relacionadas à identitdade do usuário.
+			Tem nomes únicos que podem ser atribuídos Claims
+		Identity Token -> Resposta à um processo de autenticação
+		Access Token -> Possibilita ao usuário o acesso à um API Resource
+	Token JWT -> JSon Web Token
+		Cliente faz uma request com suas credenciais
+		Server retornar o token
+		O Cliente nas próximas requisições envia o token via header autorizathion
+		O JWT é formado então por: cabeçalho + Payload + Verificação de assinatura
+
+
+dotnet new --install Duende.IdentityServer.Templates
+dotnet new isui
+
+------------------------------------
+async x await x comunicação assíncrona
+
+
+async e await -> Expor os endpoints. Diz a thread para esperar até que algo seja retornado no método subsequente ao await
+	Comunicação síncrona
+
+Comunicação assíncrona a linha é executada e não espera-se uma resposta
+
+Comunicação síncrona e assíncrona
+	Cliente envia uma request o servidor responde ao cliente
+	Em microsserviços ela pode gerar gargalos no sistema
+	Comunicação síncrona há uma confirmação do que foi realizada
+
+Comunicação assíncrona
+	O serviço faz a request, mas não espera uma resposta do serviço requisitado
+	Threads não estaram mais conectadas
+	Comunicação one-to-many
+	RabbitMQ -> para realizar a comunicação assíncrona
+		Comunicação feita a partir de mensagens
+------------------------------------
+RabbitMQ
+	Sistema de mensageria implementa o protocolo AMQP
+	RabbitMQ server intermedia a troca de mensagens entre as aplicações
+	Plataforma comum
+	Provê:
+		Confiabilidade e solidez;
+		Roteamento
+		Interface de usuário acessível via browser
+		Crossplataform, pode ser utilizado em várias plataformas
+	
+Instalar o docker do rabbitMQ com interface gráfica
+	"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
+	docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+	Login: guest
+	Senha: guest
+
