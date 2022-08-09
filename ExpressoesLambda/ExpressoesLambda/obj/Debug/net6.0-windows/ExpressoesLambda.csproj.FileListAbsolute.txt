@@ -1,0 +1,17 @@
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\bin\Debug\net6.0-windows\ExpressoesLambda.exe
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\bin\Debug\net6.0-windows\ExpressoesLambda.deps.json
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\bin\Debug\net6.0-windows\ExpressoesLambda.runtimeconfig.json
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\bin\Debug\net6.0-windows\ExpressoesLambda.dll
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\bin\Debug\net6.0-windows\ExpressoesLambda.pdb
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.csproj.AssemblyReference.cache
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.Form1.resources
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.csproj.GenerateResource.cache
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.AssemblyInfoInputs.cache
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.AssemblyInfo.cs
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.csproj.CoreCompileInputs.cache
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.dll
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\refint\ExpressoesLambda.dll
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.pdb
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ExpressoesLambda.genruntimeconfig.cache
+F:\Projects\Projetos - Estudo\ExpressoesLambda\ExpressoesLambda\obj\Debug\net6.0-windows\ref\ExpressoesLambda.dll
